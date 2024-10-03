@@ -101,6 +101,9 @@ public:
 
         return pos;
     }
+    #ifdef _M_ARM64
+    #undef move32
+    #endif
     virtual int32_t move32(int32_t delta, CharacterIterator::EOrigin origin) override {
         switch(origin) {
         case kStart:
