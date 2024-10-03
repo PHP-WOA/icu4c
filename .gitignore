@@ -1,0 +1,16 @@
+.vs
+bin[Aa][Rr][Mm]
+lib[Aa][Rr][Mm]
+bin[Aa][Rr][Mm]64
+lib[Aa][Rr][Mm]64
+bin64
+lib64
+include
+[Rr]elease
+[De]bug
+[Oo]ut
+stubdatabuilt.txt
+[Ll]og
+*.user
+*.res
+pkgdatain.txt
